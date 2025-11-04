@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body {
+    @apply h-full;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 transition-colors duration-300;
+    @apply dark:bg-dark-900 dark:text-gray-100;
+  }
+
+  /* 스크롤바 스타일링 */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-dark-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-gray-400 dark:bg-dark-600;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500 dark:bg-dark-500;
+  }
+}
+
+@layer components {
+  /* 글래스모피즘 효과 */
+  .glass {
+    @apply bg-white/80 backdrop-blur-lg;
+    @apply dark:bg-dark-800/80;
+  }
+
+  /* 버튼 기본 스타일 */
+  .btn {
+    @apply rounded-lg px-6 py-3 font-medium transition-all duration-200;
+    @apply hover:scale-105 active:scale-95;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white;
+    @apply hover:bg-primary-700;
+    @apply dark:bg-primary-500 dark:hover:bg-primary-600;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-600 text-white;
+    @apply hover:bg-secondary-700;
+    @apply dark:bg-secondary-500 dark:hover:bg-secondary-600;
+  }
+
+  /* 카드 스타일 */
+  .card {
+    @apply glass rounded-2xl p-6 shadow-lg;
+  }
+}
+
