@@ -2,14 +2,14 @@
 
 > 모던 웹 기술로 구현한 고급 틱택토 게임
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://tictactoe-xi-tawny.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/)
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-2.x-FF3E00?logo=svelte)](https://kit.svelte.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 
 ## 🌐 라이브 데모
 
-**🚀 [https://tictactoe-xi-tawny.vercel.app/](https://tictactoe-xi-tawny.vercel.app/)**
+**🚀 [https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/)**
 
 지금 바로 접속하여 게임을 즐겨보세요!
 
@@ -1008,7 +1008,7 @@ SOFTWARE.
 ## 👨‍💻 개발자
 
 **개발**: AI Assistant  
-**프로젝트 링크**: [https://tictactoe-xi-tawny.vercel.app/](https://tictactoe-xi-tawny.vercel.app/)
+**프로젝트 링크**: [https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/)
 
 ---
 
@@ -1027,6 +1027,6 @@ SOFTWARE.
 
 **⭐ 이 프로젝트가 도움이 되었다면 Star를 눌러주세요! ⭐**
 
-[라이브 데모 보기](https://tictactoe-xi-tawny.vercel.app/) | [이슈 제기](https://github.com/your-username/tic-tac-toe/issues)
+[라이브 데모 보기](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/) | [이슈 제기](https://github.com/your-username/tic-tac-toe/issues)
 
 </div>
