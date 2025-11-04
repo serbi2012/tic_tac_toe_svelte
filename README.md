@@ -1007,7 +1007,7 @@ SOFTWARE.
 
 ## 👨‍💻 개발자
 
-**개발**: AI Assistant  
+**개발**: RiAXO  
 **프로젝트 링크**: [https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/)
 
 ---
