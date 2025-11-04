@@ -131,19 +131,16 @@
 
 ```mermaid
 graph TB
-    subgraph "Presentation Layer"
-        style "Presentation Layer" fill:#FFE4E1
+    subgraph PresentationLayer[Presentation Layer]
         A[Components<br>Atomic Design]
         B[Routes<br>SvelteKit Pages]
     end
     
-    subgraph "Application Layer"
-        style "Application Layer" fill:#E0F7FA
+    subgraph ApplicationLayer[Application Layer]
         C[Stores<br>State Management]
     end
     
-    subgraph "Domain Layer"
-        style "Domain Layer" fill:#F0F4C3
+    subgraph DomainLayer[Domain Layer]
         D[Game Domain<br>Core Logic]
         E[AI Domain<br>Strategy Pattern]
         F[Statistics Domain<br>Data Processing]
@@ -151,8 +148,7 @@ graph TB
         H[Sound Domain<br>Audio Service]
     end
     
-    subgraph "Infrastructure Layer"
-        style "Infrastructure Layer" fill:#E1BEE7
+    subgraph InfrastructureLayer[Infrastructure Layer]
         I[LocalStorage<br>Persistence]
         J[Web Audio API<br>Sound Engine]
     end
@@ -168,6 +164,11 @@ graph TB
     F --> I
     G --> I
     H --> J
+    
+    style PresentationLayer fill:#FFE4E1
+    style ApplicationLayer fill:#E0F7FA
+    style DomainLayer fill:#F0F4C3
+    style InfrastructureLayer fill:#E1BEE7
 ```
 
 ### 계층별 역할
@@ -209,14 +210,12 @@ graph TB
 
 ```mermaid
 graph TB
-    subgraph "Pages"
-        style "Pages" fill:#FFCDD2
+    subgraph Pages[Pages]
         P1[Home Page]
         P2[Game Page]
     end
     
-    subgraph "Organisms"
-        style "Organisms" fill:#FFF9C4
+    subgraph Organisms[Organisms]
         O1[GameBoard]
         O2[GameModeSelector]
         O3[SettingsPanel]
@@ -224,16 +223,14 @@ graph TB
         O5[GameResult]
     end
     
-    subgraph "Molecules"
-        style "Molecules" fill:#C8E6C9
+    subgraph Molecules[Molecules]
         M1[Board]
         M2[Timer]
         M3[PlayerIndicator]
         M4[GameControls]
     end
     
-    subgraph "Atoms"
-        style "Atoms" fill:#B3E5FC
+    subgraph Atoms[Atoms]
         A1[Cell]
         A2[Button]
         A3[Icon]
@@ -253,14 +250,18 @@ graph TB
     M2 --> A3
     M3 --> A3
     M4 --> A2
+    
+    style Pages fill:#FFCDD2
+    style Organisms fill:#FFF9C4
+    style Molecules fill:#C8E6C9
+    style Atoms fill:#B3E5FC
 ```
 
 ### 게임 플로우
 
 ```mermaid
 graph LR
-    subgraph "Game Flow"
-        style "Game Flow" fill:#E1F5FE
+    subgraph GameFlow[Game Flow]
         S[Start Game] --> M[Select Mode]
         M --> L[Local Mode]
         M --> C[CPU Mode]
@@ -281,6 +282,8 @@ graph LR
         R --> SA[Save Statistics]
         SA --> M
     end
+    
+    style GameFlow fill:#E1F5FE
 ```
 
 ---
@@ -393,8 +396,7 @@ AI는 **전략 패턴(Strategy Pattern)**을 사용하여 구현되어 있어, �
 
 ```mermaid
 graph TB
-    subgraph "Strategy Pattern"
-        style "Strategy Pattern" fill:#FFF3E0
+    subgraph StrategyPattern[Strategy Pattern]
         I[AIStrategy Interface<br>getMove method]
         E[EasyStrategy<br>Random]
         M[MediumStrategy<br>Tactical]
@@ -406,6 +408,8 @@ graph TB
     I -.implements.-> M
     I -.implements.-> H
     S --> I
+    
+    style StrategyPattern fill:#FFF3E0
 ```
 
 ### 1. Easy Strategy (쉬움)
