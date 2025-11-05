@@ -9,7 +9,7 @@
 
 ## 🌐 라이브 데모
 
-**🚀 [https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/)**
+**🚀 [데모](https://tictac-2iamgfgy2-rlaxo0306-gmailcoms-projects.vercel.app/)**
 
 지금 바로 접속하여 게임을 즐겨보세요!
 
